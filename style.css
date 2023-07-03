@@ -1,0 +1,71 @@
+body{
+    overflow: hidden;
+}
+.logo{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+@media all and (max-width:412px){
+    .logo{
+        position: relative;
+        left: 10px;
+        top: 30px;
+        height: 100px;
+        width: 150px;
+    }
+}
+.location{
+    position: relative;
+    bottom: 30px;
+    left: 500px;
+}
+.detail{
+    position: relative;
+    bottom: 40px;
+    left: 500px;
+
+}
+.icon{
+    position: relative;
+    bottom: 100px;
+    left: 800px;
+}
+.mail{
+    position: relative;
+    bottom: 110px;
+    left: 800px;
+}
+@media all and (max-width:412px){
+    .location{
+        position: relative;
+        left: 200px;
+        bottom: 50px;
+        font-size: x-large;
+    }
+    .detail{
+        position: relative;
+        left: 200px;
+        bottom: 60px;
+        width: 30px;
+        font-size: x-large;
+    }
+    .icon{
+        position: relative;
+        left: 350px;
+        bottom: 180px;
+        font-size:x-large;
+
+    }
+    .mail{
+        position: relative;
+        left: 350px;
+        bottom: 190px;
+        font-size:x-large ;
+        width: 10px;
+
+
+    }
+}
